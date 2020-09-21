@@ -4,12 +4,12 @@ minio_client_bin_dir: /usr/local/bin
 minio_user: minio
 minio_group: minio
 
+minio_access_key: "IGHAJFUGHBWBAF"
+minio_secret_key: "FNLASUFYSBVALGPGIOGUSBNFVWGQ"
+
 minio_server_envfile: /etc/default/minio
-
 minio_server_addr: ":9000"
-
 minio_server_make_datadirs: true
-
 minio_server_datadirs: ["/minio-data1", "/minio-data2", "/minio-data3", "/minio-data4"]
 minio_server_cluster_nodes:
   - 'http://192.168.8.159:9000/minio-data1'
