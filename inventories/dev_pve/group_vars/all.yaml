@@ -11,9 +11,10 @@ minio_server_addr: ":9000"
 minio_server_make_datadirs: true
 
 minio_server_datadirs:
-  - '/minio-data'
-  - ...
+  - '/minio-data1'
+  - '/minio-data2'
+  - '/minio-data3'
 minio_server_cluster_nodes:
-  - 192.168.8.159
-  - 192.168.8.157
-  - 192.168.8.160
+  - 'http://192.168.8.159:9000/minio-data1'
+  - 'http://192.168.8.157:9000/minio-data2'
+  - 'http://192.168.8.160:9000/minio-data3'
