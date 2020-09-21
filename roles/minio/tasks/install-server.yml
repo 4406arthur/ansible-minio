@@ -57,7 +57,7 @@
 - name: Extract minio server tgz
   unarchive:
     src: minio.tgz
-    dest: "{{ minio_server_bin }}"
+    dest: "{{ minio_server_bin_dir }}"
     owner: "root"
     group: "root"
     mode: 0755

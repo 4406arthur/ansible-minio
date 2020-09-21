@@ -34,7 +34,7 @@
 - name: Extract minio cli tgz
   unarchive:
     src: mc.tgz
-    dest: "{{ minio_client_bin }}"
+    dest: "{{ minio_client_bin_dir }}"
     owner: "root"
     group: "root"
     mode: 0755

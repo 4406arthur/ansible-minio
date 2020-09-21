@@ -1,5 +1,5 @@
-minio_server_bin: /usr/local/bin/minio
-minio_client_bin: /usr/local/bin/mc
+minio_server_bin_dir: /usr/local/bin
+minio_client_bin_dir: /usr/local/bin
 
 minio_user: minio
 minio_group: minio
