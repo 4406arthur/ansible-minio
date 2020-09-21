@@ -1,0 +1,9 @@
+- name: "Install Minio"
+  hosts: all
+  become: yes
+  roles:
+    - { role: minio }
+
+# vars should put under inventories group_vars
+  # vars:
+  #   minio_server_datadirs: [ "/minio-test" ]
