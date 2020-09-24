@@ -1,5 +1,5 @@
 - name: "Install Minio"
-  hosts: all
+  hosts: minio-nodes
   become: yes
   roles:
     - { role: minio }
